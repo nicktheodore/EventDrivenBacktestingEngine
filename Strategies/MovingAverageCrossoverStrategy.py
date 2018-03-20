@@ -14,12 +14,12 @@ import datetime
 
 import numpy as np
 
-from EventDrivenBacktester.Backtester import Backtester
+from EventDrivenBacktester.Backtester import Backtest
 from EventDrivenBacktester.DataHandlerABC import HistoricCSVDataHandler
 from EventDrivenBacktester.EventClasses import SignalEvent
 from EventDrivenBacktester.ExecutionHandler import SimulatedExecutionHandler
 from EventDrivenBacktester.StrategyABC import Strategy
-from Portfolio.PortfolioBaseClass import PortfolioBaseClass
+from Portfolio.PortfolioBaseClass import Portfolio
 
 
 # In[3]:
@@ -104,8 +104,8 @@ if __name__ == "__main__":
     heartbeat = 0.0
     start_date = datetime.datetime(1990, 1, 1, 0, 0, 0)
     
-    backtest = Backtester(csv_dir, symbol_list, initial_capital, heartbeat, start_date,
-                          HistoricCSVDataHandler, SimulatedExecutionHandler, PortfolioBaseClass, 
+    backtest = Backtest(csv_dir, symbol_list, initial_capital, heartbeat, start_date,
+                          HistoricCSVDataHandler, SimulatedExecutionHandler, Portfolio,
                           MovingAverageCrossoverStrategy)
     
     backtest.simulate_trading()

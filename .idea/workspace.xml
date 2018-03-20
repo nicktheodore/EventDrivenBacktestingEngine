@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3caefca0-49d8-410f-86fc-f7a5818fd064" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ValueAtRisk.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/augmented-dickey-fuller.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cointegrated-augmented-dickey-fuller.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cont_futures.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forecaster.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grid_search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hurst_exponent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/insert_symbols.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iqfeed.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k_fold_cross_validation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/obtaining_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/price_retrieval.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quandl_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/retrieving_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sharpe.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train_test_split.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/EventDrivenBacktester/Portfolio/PerformanceTools.py" afterPath="$PROJECT_DIR$/Portfolio/PerformanceTools.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/EventDrivenBacktester/Portfolio/PortfolioBaseClass.py" afterPath="$PROJECT_DIR$/Portfolio/PortfolioBaseClass.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/EventDrivenBacktester/Portfolio/__init__.py" afterPath="$PROJECT_DIR$/Portfolio/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/EventDrivenBacktester/Portfolio/plot_performance.py" afterPath="$PROJECT_DIR$/Portfolio/plot_performance.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JupyterNotebooks/KellyCriterion_MaxDama.ipynb" afterPath="$PROJECT_DIR$/JupyterNotebooks/KellyCriterion_MaxDama.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy.py" afterPath="$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy_Optim.py" afterPath="$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy_Optim.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strategies/MovingAverageCrossoverStrategy.py" afterPath="$PROJECT_DIR$/Strategies/MovingAverageCrossoverStrategy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strategies/SPYDailyForecastStrategy.py" afterPath="$PROJECT_DIR$/Strategies/SPYDailyForecastStrategy.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,81 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="k_fold_cross_validation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuantModels/k_fold_cross_validation.py">
+      <file leaf-file-name="IntradayOLSMeanReversionStrategy_Optim.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy_Optim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iqfeed.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuantModels/iqfeed.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insert_symbols.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuantModels/insert_symbols.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hurst_exponent.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuantModels/hurst_exponent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grid_search.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuantModels/grid_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forecaster.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuantModels/forecaster.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cont_futures.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuantModels/cont_futures.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cointegrated-augmented-dickey-fuller.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuantModels/cointegrated-augmented-dickey-fuller.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-270">
+              <caret line="135" column="28" lean-forward="false" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -129,12 +34,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MovingAverageCrossoverStrategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Strategies/MovingAverageCrossoverStrategy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="107" column="86" lean-forward="false" selection-start-line="107" selection-start-column="86" selection-end-line="107" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PortfolioBaseClass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/PortfolioBaseClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3835">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_performance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/plot_performance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Backtester.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EventDrivenBacktester/Backtester.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2793">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntradayOLSMeanReversionStrategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuantModels/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SPYDailyForecastStrategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Strategies/SPYDailyForecastStrategy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1065">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KellyCriterion_MaxDama.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JupyterNotebooks/KellyCriterion_MaxDama.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -175,6 +149,7 @@
         <option value="$PROJECT_DIR$/QuantModels/k_fold_cross_validation.py" />
         <option value="$PROJECT_DIR$/Strategies/SPYDailyForecastStrategy.py" />
         <option value="$PROJECT_DIR$/QuantModels/grid_search.py" />
+        <option value="$PROJECT_DIR$/Strategies/MovingAverageCrossoverStrategy.py" />
       </list>
     </option>
   </component>
@@ -222,6 +197,21 @@
               <item name="AlgorithmicTradingProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmicTradingProject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlgorithmicTradingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicTradingProject" type="462c0819:PsiDirectoryNode" />
+              <item name="EventDrivenBacktester" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicTradingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicTradingProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicTradingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicTradingProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategies" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -250,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IntradayOLSMeanReversionStrategy (1)">
+  <component name="RunManager" selected="Python.MovingAverageCrossoverStrategy">
     <configuration name="IntradayOLSMeanReversionStrategy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,6 +275,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="MovingAverageCrossoverStrategy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strategies" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmicTradingProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strategies/MovingAverageCrossoverStrategy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="SPYDailyForecastStrategy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,16 +309,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.IntradayOLSMeanReversionStrategy" />
       <item index="1" class="java.lang.String" itemvalue="Python.SPYDailyForecastStrategy" />
       <item index="2" class="java.lang.String" itemvalue="Python.IntradayOLSMeanReversionStrategy (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.MovingAverageCrossoverStrategy" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.IntradayOLSMeanReversionStrategy (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SPYDailyForecastStrategy" />
-        <item index="2" class="java.lang.String" itemvalue="Python.IntradayOLSMeanReversionStrategy" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.MovingAverageCrossoverStrategy" />
+        <item index="1" class="java.lang.String" itemvalue="Python.IntradayOLSMeanReversionStrategy (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SPYDailyForecastStrategy" />
+        <item index="3" class="java.lang.String" itemvalue="Python.IntradayOLSMeanReversionStrategy" />
       </list>
     </recent_temporary>
   </component>
@@ -362,22 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/obtaining_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k_fold_cross_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iqfeed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -435,14 +428,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EventDrivenBacktester/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/plot_performance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -594,46 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/PortfolioBaseClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategies/SPYDailyForecastStrategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategies/MovingAverageCrossoverStrategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy_Optim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="135" column="28" lean-forward="false" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QuantModels/ValueAtRisk.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -765,6 +710,69 @@
     <entry file="file://$PROJECT_DIR$/QuantModels/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/KellyCriterion_MaxDama.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy_Optim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="135" column="28" lean-forward="false" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strategies/SPYDailyForecastStrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strategies/IntradayOLSMeanReversionStrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="146" column="26" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/PortfolioBaseClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3835">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/plot_performance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strategies/MovingAverageCrossoverStrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="107" column="86" lean-forward="false" selection-start-line="107" selection-start-column="86" selection-end-line="107" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EventDrivenBacktester/Backtester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2793">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
