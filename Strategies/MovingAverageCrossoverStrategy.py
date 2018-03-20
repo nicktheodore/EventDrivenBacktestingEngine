@@ -13,15 +13,13 @@ from __future__ import print_function
 import datetime
 
 import numpy as np
-import pandas as pd
-import statsmodels.api as sm
 
-from EventDrivenBacktester.StrategyABC import Strategy
-from EventDrivenBacktester.EventClasses import SignalEvent
 from EventDrivenBacktester.Backtester import Backtester
 from EventDrivenBacktester.DataHandlerABC import HistoricCSVDataHandler
+from EventDrivenBacktester.EventClasses import SignalEvent
 from EventDrivenBacktester.ExecutionHandler import SimulatedExecutionHandler
-from EventDrivenBacktester.Portfolio.PortfolioBaseClass import PortfolioBaseClass
+from EventDrivenBacktester.StrategyABC import Strategy
+from Portfolio.PortfolioBaseClass import PortfolioBaseClass
 
 
 # In[3]:

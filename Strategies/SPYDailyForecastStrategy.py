@@ -15,13 +15,13 @@ import datetime
 import pandas as pd
 from sklearn.qda import QDA
 
-from EventDrivenBacktester.StrategyABC import Strategy
-from EventDrivenBacktester.EventClasses import SignalEvent
 from EventDrivenBacktester.Backtester import Backtest
 from EventDrivenBacktester.DataHandlerABC import HistoricCSVDataHandler
+from EventDrivenBacktester.EventClasses import SignalEvent
 from EventDrivenBacktester.ExecutionHandler import SimulatedExecutionHandler
-from EventDrivenBacktester.Portfolio.PortfolioBaseClass import Portfolio
-from forecaster import create_lagged_series
+from EventDrivenBacktester.StrategyABC import Strategy
+from Portfolio.PortfolioBaseClass import Portfolio
+from QuantModels.forecaster import create_lagged_series
 
 
 # In[4]:

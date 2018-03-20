@@ -19,7 +19,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.qda import QDA
 from sklearn.svm import LinearSVC, SVC
 
-from forecaster import create_lagged_series
+from QuantModels.forecaster import create_lagged_series
 
 
 # In[5]:

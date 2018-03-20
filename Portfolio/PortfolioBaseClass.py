@@ -20,8 +20,8 @@ except ImportError:
 import numpy as np
 import pandas as pd
 
-from EventClasses import FillEvent, OrderEvent
-from PerformanceTools import create_sharpe_ratio, create_drawdowns
+from EventDrivenBacktester.EventClasses import FillEvent, OrderEvent
+from Portfolio.PerformanceTools import create_sharpe_ratio, create_drawdowns
 
 
 # In[7]:

@@ -19,7 +19,7 @@ from sklearn.grid_search import GridSearchCV
 from sklearn.metrics import classification_report
 from sklearn.svm import SVC
 
-from forecaster import create_lagged_series
+from QuantModels.forecaster import create_lagged_series
 
 
 # In[4]:
