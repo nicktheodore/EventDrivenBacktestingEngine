@@ -138,6 +138,7 @@ class Portfolio(object):
             
         # Append the current holdings
         self.all_holdings.append(dh)
+        print('timeindex: ', dh)
         
     def update_positions_from_fill(self, fill):
         """
@@ -153,11 +154,12 @@ class Portfolio(object):
         fill_dir = 0
         if fill.direction == 'BUY':
             fill_dir = 1
-        if fill.directoin == 'SELL':
+        if fill.direction == 'SELL':
             fill_dir = -1
         
         # Update positions list with new quantities
         self.current_positions[fill.symbol] += fill_dir*fill.quantity
+        print('positions: ', self.current_positions)
     
     def update_holdings_from_fill(self, fill):
         """
@@ -190,8 +192,11 @@ class Portfolio(object):
         self.current_holdings['commission'] += fill.commission
         self.current_holdings['cash'] -= (cost + fill.commission)
         self.current_holdings['total'] -= (cost + fill.commission)
+        # print('holdings: ', self.current_holdings)
+        # print('cost: ', cost)
+        # print(fill_cost, fill.quantity)
         
-    def udpate_fill(self, event):
+    def update_fill(self, event):
         """
         Updates the portfolio current positions and holdings from a FillEvent.
         Calls update_positions_from_fill and update_holdings_from_fill upon receiving
@@ -242,7 +247,9 @@ class Portfolio(object):
             order = OrderEvent(symbol, order_type, abs(cur_quantity), 'SELL')
         if direction == 'EXIT' and cur_quantity < 0:
             order = OrderEvent(symbol, order_type, abs(cur_quantity), 'BUY')
-            
+
+        # print(symbol, order_type)
+        # print(mkt_quantity, cur_quantity)
         return order
 
     def update_signal(self, event):
@@ -268,8 +275,12 @@ class Portfolio(object):
         curve = pd.DataFrame(self.all_holdings)
         curve.set_index('datetime', inplace=True)
         curve['returns'] = curve['total'].pct_change()
-        curve['equity_curve'] = (1.0+curve['returns']).cumprod()
+        #curve['equity_curve'] = (1.0+curve['returns']).cumprod()
+        curve['equity_curve'] = curve['returns']
+        curve['equity_curve'] += 1
+        curve['equity_curve'] = curve['equity_curve'].cumprod()
         self.equity_curve = curve
+        print(curve)
     
     def output_summary_stats(self):
         """
@@ -460,7 +471,7 @@ class PortfolioHFT(object):
         self.current_holdings['cash'] -= (cost + fill.commission)
         self.current_holdings['total'] -= (cost + fill.commission)
         
-    def udpate_fill(self, event):
+    def update_fill(self, event):
         """
         Updates the portfolio current positions and holdings from a FillEvent.
         Calls update_positions_from_fill and update_holdings_from_fill upon receiving
@@ -537,7 +548,10 @@ class PortfolioHFT(object):
         curve = pd.DataFrame(self.all_holdings)
         curve.set_index('datetime', inplace=True)
         curve['returns'] = curve['total'].pct_change()
-        curve['equity_curve'] = (1.0+curve['returns']).cumprod()
+        #curve['equity_curve'] = (1.0+curve['returns']).cumprod()
+        curve['equity_curve'] = curve['returns']
+        curve['equity_curve'] += 1
+        curve['equity_curve'] = curve['equity_curve'].cumprod()
         self.equity_curve = curve
     
     def output_summary_stats(self):

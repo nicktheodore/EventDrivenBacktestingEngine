@@ -58,6 +58,7 @@ class SignalEvent(Event):
         self.datetime = datetime
         self.signal_type = signal_type
         self.strength = strength
+        self.symbol = symbol
 
 
 # In[5]:

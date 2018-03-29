@@ -98,13 +98,14 @@ class MovingAverageCrossoverStrategy(Strategy):
 # In[4]:
 
 if __name__ == "__main__":
-    csv_dir = '' # Absolute path to the CSV data
+    csv_dir = '~/AlgorithmicTradingProject/Symbols/' # Absolute path to the CSV data
     symbol_list = ['AAPL']
     initial_capital = 100000.0
     heartbeat = 0.0
     start_date = datetime.datetime(1990, 1, 1, 0, 0, 0)
+    end_date = datetime.datetime(2001, 1, 1, 0, 0, 0)
     
-    backtest = Backtest(csv_dir, symbol_list, initial_capital, heartbeat, start_date,
+    backtest = Backtest(csv_dir, symbol_list, initial_capital, heartbeat, start_date, end_date,
                           HistoricCSVDataHandler, SimulatedExecutionHandler, Portfolio,
                           MovingAverageCrossoverStrategy)
     

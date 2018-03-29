@@ -151,10 +151,10 @@ class HistoricCSVDataHandler(DataHandler):
         for s in self.symbol_list:
             # Load the CSV file with no header information, indexed on date
             self.symbol_data[s] = pd.read_csv(
-                os.path.join(self.csv_dir, '%.csv', '%s'),
+                os.path.join(self.csv_dir, '{}.csv'.format(s)),
                 header=0, index_col=0, parse_dates=True,
-                names=['datetime', 'open', 'high', 'low', 'close', 'volume', 'adj_close']
-            ).sort()
+                names=['datetime', 'open', 'high', 'low', 'close', 'adj_close', 'volume']
+            ).sort_index()
             
             # Combine the index to pad forward values
             # Merges all the indexes with a union so that the index is completely filled
@@ -222,6 +222,7 @@ class HistoricCSVDataHandler(DataHandler):
         Returns one of the Open, High, Low, Close, Volume, or OI values from the
         pandas Bar series object.
         """
+        #print("get_latest_bar_value")
         try:
             bars_list = self.latest_symbol_data[symbol]
         except KeyError:
@@ -386,24 +387,31 @@ class HistoricCSVDataHandlerHFT(DataHandler):
         Returns one of the Open, High, Low, Close, Volume, or OI values from the
         pandas Bar series object.
         """
+        print("get_latest_bar_value: ")
+
         try:
             bars_list = self.latest_symbol_data[symbol]
+            print(bars_list)
         except KeyError:
             print("That symbol is not available in the historical data set.")
             raise
         else:
+            print(bars_list[-1][-1], val_type)
             return getattr(bars_list[-1][-1], val_type)
-    
+
     def get_latest_bars_values(self, symbol, val_type, N=1):
         """
         Returns the last N bar values from the latest_symbol list, or N-k if less available.
         """
+        print("get_latest_bars_values: ")
         try:
             bars_list = self.get_latest_bars(symbol, N)
+            print(bars_list)
         except KeyError:
             print("That symbol is not available in the historical data set.")
             raise
         else:
+            print(np.array([getattr(b[1], val_type) for b in bars_list]))
             return np.array([getattr(b[1], val_type) for b in bars_list])
     
     def update_bars(self):
